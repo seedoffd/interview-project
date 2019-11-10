@@ -1,0 +1,17 @@
+apiVersion: v1
+appVersion: "1.0"
+description: deployment for exam
+name: exam
+version: "0.1.0"
+kubeVersion: v1.13.10-gke.0
+keywords:
+  - app
+  - python
+home: https://github.com/seedoffd/interview-project
+sources:
+  - https://github.com/seedoffd/interview-project.git
+maintainers:
+  - name: seedoffd
+    email: seedoffd@gmail.com
+    url: https://github.com/seedoffd/interview-project
+tillerVersion: v2.11.0
